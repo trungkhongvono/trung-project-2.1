@@ -73,6 +73,7 @@ a {
 }
 .hero-wrap {
     display: flex;
+    justify-content: space-between;
 }
 
 .hero .hero-left {
@@ -113,4 +114,10 @@ a {
 }
 .hero-right {
     width: 60%;
+    margin-left: 136px;
+}
+.hero .hero-img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
 }

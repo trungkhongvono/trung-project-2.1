@@ -29,7 +29,7 @@ a {
 }
 /* header */
 .header {
-    color: #fff;
+    background: white;
     position: sticky;
     padding: 52px 0 0 62px;
     top: -40px;

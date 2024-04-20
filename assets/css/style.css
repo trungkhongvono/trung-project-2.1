@@ -4,6 +4,9 @@
 html {
     font-size: 62.5%;
 }
+.main-content {
+    width: 1024px;
+}
 .container {
     width: 1170px;
     max-width: calc(100% - 24px);
@@ -269,9 +272,7 @@ a {
     align-items: center;
     margin-top: 80px;
 }
-.feature-icon-item {
-    flex: 1;
-}
+
 /* .feature-icon-item {
     
 } */

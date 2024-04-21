@@ -9,7 +9,7 @@ html {
 }
 .container {
     width: 1170px;
-    max-width: calc(100% - 24px);
+    max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -301,4 +301,254 @@ a {
 
 .feature .feature-desc-03 {
     max-width: 224px;
+}
+/* courses */
+.courses {
+    padding: 65px;
+    margin-top: 65px;
+}
+.courses.important {
+    color: #767e7e;
+
+    font-size: 1.2rem;
+
+    font-weight: 700;
+}
+.courses .title {
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-top: 18px;
+}
+.courses .view-all {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    justify-content: space-between;
+}
+.courses .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    max-width: 525px;
+    line-height: 1.78; /* 177.778% */
+}
+
+.courses .view {
+    color: #1ebfc1;
+
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.courses .courses-list {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+.courses .courses-img {
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    opacity: 1;
+    background: #d0efed;
+    object-fit: cover;
+}
+.courses .courses-img:hover {
+    opacity: 0.9;
+}
+.courses .courses-item {
+    position: relative;
+}
+.courses .name-courses {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px;
+    height: 195px;
+    bottom: -69px;
+    left: 17px;
+    padding: 18px 82px 29px 25px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+.courses .courses-list-title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.courses .price {
+    color: #767e7e;
+    font-size: 1.6rem;
+    margin-top: 16px;
+    font-weight: 400;
+}
+.courses .money {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.courses .courses-list-desc {
+    margin-top: 6px;
+    color: #9da6a5;
+
+    font-size: 1.4rem;
+    max-width: 218px;
+    font-weight: 400;
+}
+.courses .skill {
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .skill-img {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+/* user */
+.user {
+    margin-top: 389px;
+}
+
+.user .user-list {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+}
+
+.user .number-of-users {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+.user .user-desc {
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 11px;
+}
+/* feedback */
+.feedback {
+    padding-top: 132px;
+    margin-top: 132px;
+}
+.feedback-all {
+    display: flex;
+}
+
+.feedback .feedback-desc {
+    color: #5d6564;
+    width: 419px;
+    font-size: 3.2rem;
+    margin-top: 27px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+.feedback .author-job {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.feedback .student {
+    color: #070707;
+    margin-left: 3px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.feedback .author-job::before {
+    margin-right: 5px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #070707;
+}
+.feedback .feedback-arrow {
+    margin-top: 52px;
+    display: flex;
+
+    cursor: pointer;
+    color: #fff;
+}
+
+.feedback .feedback-arrow-right {
+    margin-left: 30px;
+}
+.feedback .feedback-right {
+    width: 34.5%;
+}
+.feedback .feedback-right {
+    margin-left: 72px;
+    width: 65.5%;
+    position: relative;
+}
+.feedback .feedback-icon-1 {
+    position: absolute;
+    top: 22%;
+    right: 23%;
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback .feedback-icon-2 {
+    position: absolute;
+    top: 0;
+    left: 29%;
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback .feedback-icon-3 {
+    top: 4%;
+    right: 0;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback .feedback-icon-4 {
+    position: absolute;
+    left: 9.6%;
+    bottom: 30%;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback .feedback-icon-5 {
+    position: absolute;
+    bottom: 0;
+    left: 38%;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback .feedback-icon-6 {
+    position: absolute;
+    right: 4%;
+    bottom: 6%;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
 }

@@ -19,7 +19,8 @@ body {
 }
 .btn {
     background: #1ebfc1;
-    min-width: 108px;
+    width: 108px;
+    color: #1ebfc1;
     padding: 20px 40px;
     text-align: center;
     font-size: 1.6rem;
@@ -490,18 +491,24 @@ a {
 .feedback .feedback-arrow-right {
     margin-left: 30px;
 }
-.feedback .feedback-right {
-    width: 34.5%;
-}
+
 .feedback .feedback-right {
     margin-left: 72px;
-    width: 65.5%;
+    width: 679px;
     position: relative;
+    height: 481px;
+}
+.feedback-left {
+    margin: 37px 0;
+    width: 419px;
+    height: 407px;
 }
 .feedback .feedback-icon-1 {
     position: absolute;
-    top: 22%;
-    right: 23%;
+    top: 107px;
+    right: 171px;
+    /* top: 22%;
+    right: 23%; */
     width: 235px;
     height: 235px;
     object-fit: cover;
@@ -510,15 +517,20 @@ a {
 .feedback .feedback-icon-2 {
     position: absolute;
     top: 0;
-    left: 29%;
+    left: 144px;
+    /* top: 0;
+    left: 29%; */
     width: 92px;
     height: 92px;
     object-fit: cover;
     border-radius: 50%;
 }
 .feedback .feedback-icon-3 {
-    top: 4%;
+    top: 19px;
     right: 0;
+    /* top: 4%;
+    
+    right: 0; */
     position: absolute;
     width: 110px;
     height: 110px;
@@ -527,28 +539,119 @@ a {
 }
 .feedback .feedback-icon-4 {
     position: absolute;
-    left: 9.6%;
-    bottom: 30%;
+    top: 258px;
+    left: 0;
     width: 78px;
+
     height: 78px;
     object-fit: cover;
     border-radius: 50%;
 }
 .feedback .feedback-icon-5 {
     position: absolute;
-    bottom: 0;
-    left: 38%;
+
     width: 78px;
+    bottom: 0;
+    left: 212px;
+
     height: 78px;
     object-fit: cover;
     border-radius: 50%;
 }
 .feedback .feedback-icon-6 {
     position: absolute;
-    right: 4%;
-    bottom: 6%;
+    right: 32px;
+    bottom: 29px;
+
     width: 78px;
     height: 78px;
     object-fit: cover;
     border-radius: 50%;
+}
+/* calling */
+.calling {
+    height: 272px;
+    position: relative;
+    flex-shrink: 0;
+    margin-top: 130px;
+    background: #def6f5;
+    padding: 76px 289px 88px 135px;
+}
+.calling-title {
+    width: 420px;
+    color: #070707;
+
+    font-size: 4.2rem;
+
+    font-weight: 700;
+}
+.calling-desc {
+    width: 397px;
+    color: #767e7e;
+    margin-top: 27px;
+    font-size: 1.8rem;
+
+    font-weight: 400;
+}
+
+.calling-btn {
+    width: 186px;
+    position: absolute;
+    top: 96px;
+    right: 289px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 14px;
+    text-align: center;
+    background: #2ac9bf;
+}
+/* footer */
+
+.footer .footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+
+.footer .footer-title {
+    color: #2e2e2e;
+
+    font-size: 1.8rem;
+
+    font-weight: 500;
+}
+.footer .title-icon {
+    color: #535353;
+    margin-top: 25px;
+
+    font-size: 1.6rem;
+
+    font-weight: 400;
+}
+.footer .footer-social-icon {
+    display: flex;
+}
+.footer .footer-social {
+    background: white;
+    margin-top: 18px;
+}
+
+.footer .title-icon-social {
+    margin-left: 9px;
+    margin-top: 18px;
+    color: #535353;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.license-desc {
+    color: #b0b5b4;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+
+    font-weight: 400;
 }

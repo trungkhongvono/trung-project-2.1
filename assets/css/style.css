@@ -49,10 +49,15 @@ a {
 }
 .header .navbar a {
     color: #2f3a3b;
+
     text-decoration: none;
     font-size: 1.6rem;
     font-weight: 400;
     padding: 0 20px;
+}
+.header .navbar-item:hover {
+    font-weight: 600;
+    text-decoration: underline;
 }
 .header .navbar a:first-child {
     color: #2f3a3b;
